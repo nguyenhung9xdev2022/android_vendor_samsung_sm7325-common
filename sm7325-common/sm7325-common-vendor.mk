@@ -1803,7 +1803,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
 
 PRODUCT_PACKAGES += \
-    libplatformconfig \
     com.samsung.android.camera.unihal.signed \
     com.samsung.android.wifi.broadcom.signed \
     HotwordEnrollmentOKGoogleEx3HEXAGON.apk \
