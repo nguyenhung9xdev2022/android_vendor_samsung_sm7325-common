@@ -1805,8 +1805,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.samsung.android.camera.unihal.signed \
     com.samsung.android.wifi.broadcom.signed \
-    HotwordEnrollmentOKGoogleEx3HEXAGON.apk \
-    HotwordEnrollmentXGoogleEx3HEXAGON.apk \
+    HotwordEnrollmentOKGoogleEx3HEXAGON \
+    HotwordEnrollmentXGoogleEx3HEXAGON \
     com.android.hotwordenrollment.common.util \
     android.hardware.atrace@1.0-service \
     android.hardware.gnss@2.1-service-qti \
