@@ -22,9 +22,9 @@ prebuilt_apex {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleEx3HEXAGON.apk",
+	name: "HotwordEnrollmentOKGoogleEx3HEXAGON",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk.prof",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -34,9 +34,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleEx3HEXAGON.apk",
+	name: "HotwordEnrollmentXGoogleEx3HEXAGON",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk.prof",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
