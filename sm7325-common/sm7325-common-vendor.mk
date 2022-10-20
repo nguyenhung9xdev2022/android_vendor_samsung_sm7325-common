@@ -656,6 +656,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libfidoauthnr_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfidoauthnr_v2.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking_interface.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofencing.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
@@ -1192,6 +1193,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libexifa.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexifa.camera.samsung.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libface_landmark.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface_landmark.arcsoft.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libfidoauthnr_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfidoauthnr_v2.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking.so \
