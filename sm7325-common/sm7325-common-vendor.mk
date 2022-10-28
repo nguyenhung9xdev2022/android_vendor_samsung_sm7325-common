@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
-    vendor/samsung/sm7325-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/btcoex_cont_config:$(TARGET_COPY_OUT_VENDOR)/bin/btcoex_cont_config \
@@ -107,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/vmmgr:$(TARGET_COPY_OUT_VENDOR)/bin/vmmgr \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/beauty/settings.dat:$(TARGET_COPY_OUT_VENDOR)/etc/beauty/settings.dat \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
@@ -512,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/hw/audio.sec_primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.sec_primary.default.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.unihal.default.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
@@ -573,12 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libVideoSuperNight_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVideoSuperNight_interface.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SamsungRec_07010.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07010.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver400.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver400.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_SoundBooster_ver1050.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver1050.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
@@ -592,12 +583,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libarcsoft_video_super_night.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_video_super_night.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbeautyshot.arcsoft.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlenginev2.so \
@@ -629,7 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcodecsolutionhelper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodecsolutionhelper_vendor.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcvp2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2_1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcvp_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_util.so \
@@ -707,7 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
@@ -735,7 +721,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libpredeflicker_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpredeflicker_native.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
@@ -803,14 +788,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnamrnb.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libsnamrwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnamrwb.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_vndk.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-qdcm.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
@@ -827,10 +808,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
@@ -852,7 +831,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstork_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstork_shared.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
@@ -874,7 +852,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_image_optical_zoom.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_comm.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.arcsoft.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libvideobeauty.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.uniplugin@1.0.so \
@@ -912,12 +889,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libmysound.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmysound.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmyspace.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
@@ -945,7 +918,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@4.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.automotive.vehicle@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
@@ -1045,12 +1017,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/audio.sec_primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.sec_primary.default.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.unihal.default.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
@@ -1109,9 +1079,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libTrustedUIVM.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUIVM.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libVideoSuperNight_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVideoSuperNight_interface.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver400.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_play_plus_ver400.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/lib_SoundBooster_ver1050.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver1050.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
@@ -1121,13 +1088,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libarcsoft_picportrait_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_picportrait_video.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libarcsoft_video_super_night.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_video_super_night.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail_vendor.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeautyshot.arcsoft.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
@@ -1261,7 +1225,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -1293,7 +1256,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfioctl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprofileparamstorage.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
@@ -1368,12 +1330,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartfocus_interface.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrnb.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsnamrwb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrwb.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsnap_v1.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_v1.samsung.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-qdcm.so \
@@ -1391,15 +1349,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoc_helper_jni.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsocial_image_enhancement.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsocial_image_enhancement.uniplugin@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxcmn.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_flacdec.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_softomx.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libstork_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstork_shared.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libsume_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsume_core.so \
@@ -1424,7 +1378,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libtvm_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtvm_runtime.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libtvm_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtvm_wrapper.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_comm.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libucsengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucsengine.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty.arcsoft.so \
@@ -1441,12 +1394,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libmysound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmysound.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmyspace.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libplaybackrecorder.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
@@ -1532,7 +1481,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
-    vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so \
