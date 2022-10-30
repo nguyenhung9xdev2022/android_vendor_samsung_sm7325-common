@@ -307,6 +307,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/lib/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnaace.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-manager.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
+    vendor/samsung/m52xq/proprietary/vendor/lib/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeakercalibration.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/libsrib_CNNInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsrib_CNNInterface.camera.samsung.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/libsrib_videobokeh_engine.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsrib_videobokeh_engine.camera.samsung.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/libssengine.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssengine.uniplugin@1.0.so \
@@ -536,6 +537,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libssengine.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssengine.uniplugin@1.0.so \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libsuper_night_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuper_night_interface.so \
+    vendor/samsung/m52xq/proprietary/vendor/lib64/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeakercalibration.so \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_direct_comm.so \
     vendor/samsung/m52xq/proprietary/vendor/lib64/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_tz_esecomm.so \
