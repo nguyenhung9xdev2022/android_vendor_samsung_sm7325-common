@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/samsung/sm7325-common/proprietary/vendor/bin/vendor.samsung.hardware.camera.provider@4.0-service_64 \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hqm@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.thermal@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
@@ -145,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.bsp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.bsp.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.svcled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.svcled.rc \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc$(TARGET_COPY_OUT_VENDOR)/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.avb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.avb.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
@@ -495,6 +497,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/carwatchdog_aidl_interface-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/carwatchdog_aidl_interface-V2-ndk_platform.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@1.0-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/camera.device@1.0-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@3.2-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/camera.device@3.2-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@3.3-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/camera.device@3.3-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@3.4-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/camera.device@3.4-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@3.5-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/camera.device@3.5-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/cdsp_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/cdsp_face.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/com.qti.stats.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.stats.common.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -1477,6 +1487,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/camera.device@1.0-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/camera.device@1.0-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/camera.device@3.2-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/camera.device@3.3-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/camera.device@3.3-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/camera.device@3.3-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/camera.device@3.4-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/camera.device@3.4-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/camera.device@3.5-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/camera.device@3.5-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@5.0.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
