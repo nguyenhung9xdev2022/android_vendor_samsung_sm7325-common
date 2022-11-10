@@ -1060,6 +1060,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_listener.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libskeymaster4device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster4device.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libSSM_AutoTrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSSM_AutoTrigger.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libSecC2ComponentStore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecC2ComponentStore.so \
@@ -1504,6 +1505,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
 
 PRODUCT_PACKAGES += \
+    libskeymaster4device \
     com.samsung.android.camera.unihal.signed \
     com.samsung.android.wifi.broadcom.signed \
     HotwordEnrollmentOKGoogleEx3HEXAGON \
