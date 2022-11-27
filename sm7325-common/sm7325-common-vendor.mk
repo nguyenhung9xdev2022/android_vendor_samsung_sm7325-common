@@ -141,9 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/dsmsca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dsmsca.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.bsp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.bsp.rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/hw/init.samsung.svcled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.svcled.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.avb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.avb.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
