@@ -61,9 +61,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/android.hardware.identity-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.identity-service-qti \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service \
+    vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
+    vendor/samsung/sm7325-common/proprietary/vendor/bin/hw//vendor.qti.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw//vendor.qti.media.c2@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
-    vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/samsung.software.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.software.media.c2@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
@@ -151,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/btcoex_cont_config.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/btcoex_cont_config.rc \
@@ -178,7 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/pa_daemon_qsee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_qsee.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
@@ -193,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
@@ -217,6 +219,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/media_yupik_iot/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_iot/video_system_specs.json \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/media_yupik_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v0/video_system_specs.json \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_lahaina.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_lahaina_vendor.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_performance_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_lahaina.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_performance_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_lahaina_vendor.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_performance_yupik_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_iot.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_performance_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v0.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_wfd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_wfd.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_yupik_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_iot.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_codecs_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_v1.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_profiles_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_lahaina.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_profiles_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_lahaina_vendor.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/media_profiles_yupik_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_iot.xml \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/midas/SRIBMidas_aiDEBLUR_INT16_V0132_sm7325_snpe1502.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiDEBLUR_INT16_V0132_sm7325_snpe1502.dlc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/midas/SRIBMidas_aiDENOISE_FP16_V900.caffemodel:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiDENOISE_FP16_V900.caffemodel \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/midas/SRIBMidas_aiHDR_Global_INT16_V430_sm7325_snpe1502.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiHDR_Global_INT16_V430_sm7325_snpe1502.dlc \
@@ -262,8 +278,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/saiv/ld/regress_matrix_short_35pt.dat:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/ld/regress_matrix_short_35pt.dat \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/sec_audio_volume_curve.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sec_audio_volume_curve.xml \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-base-policy \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-ext-policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
