@@ -69,10 +69,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/a73xq/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/a73xq/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM36_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM36_FHD.xml \
-    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml \
-    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_FHD.xml \
-    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_FHD.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_A73_S6E3FC3_AMB667BV01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_A73_S6E3FC3_AMB667BV01.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_A73_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_A73_FHD.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_A73_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_A73_FHD.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83109_WM6676Z21_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_SW83109_WM6676Z21_FHD.xml \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_0.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_1.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_lsm6dsm_0.json \
@@ -96,7 +101,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/regdb.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_boe.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_csot.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_sdc.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
